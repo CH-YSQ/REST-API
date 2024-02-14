@@ -13,7 +13,6 @@ def add_student(body=None):  # noqa: E501
 
     :param body: Student item to add
     :type body: dict | bytes
-
     :rtype: float
     """
     if connexion.request.is_json:
